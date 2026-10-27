@@ -31,3 +31,8 @@ def test_square():
     assert s.perimeter() == 20
     assert str(s) == "5x5"
     assert isinstance(s, Rectangle)
+
+test_count_occurrences()
+test_is_sorted()
+test_rectangle()
+test_square()
